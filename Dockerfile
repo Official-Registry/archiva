@@ -7,6 +7,7 @@ ENV ARCHIVA_VERSION="2.2.1"
 
 # jvm memory limits (unit: MB)
 ENV MAX_HEAP=512
+ENV MIN_HEAP=512
 
 EXPOSE 8080
 
